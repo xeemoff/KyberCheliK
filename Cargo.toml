@@ -1,0 +1,18 @@
+[package]
+name = "kyberchelik"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.14", default-features = false, features = [
+    "bevy_winit",
+    "bevy_asset",
+    "bevy_render",
+    "bevy_core_pipeline",
+    "bevy_sprite",
+    "bevy_state",
+    "bevy_gilrs",
+    "png",
+    "x11"
+] }
+bevy_xpbd_2d = "0.5"
